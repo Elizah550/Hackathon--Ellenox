@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.video-container {
+    position: relative;
+}
+
+#video {
+    transform: scaleX(-1); /* Flip the video horizontally for better user experience */
+}
+
+#canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.feedback-container {
+    margin-top: 20px;
+}
+
+#emotion-feedback {
+    font-size: 18px;
+}
